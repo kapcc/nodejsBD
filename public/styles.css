@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0f0f0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.envelope {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    position: absolute;
+}
+button{
+    background-color: red;
+}
